@@ -32,7 +32,7 @@ jobs:
       - name: Show example case report
         run: cat "$RUNNER_TEMP/profitability-case.txt"
       - name: Upload example case report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: consulting-analytics-case-${{ github.sha }}
           path: ${{ runner.temp }}/profitability-case.txt
