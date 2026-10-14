@@ -1,0 +1,11 @@
+{
+  "title": "Operational efficiency case outline",
+  "data_type": "assumptions_to_be_added",
+  "status": "not_calculated_yet",
+  "questions": [
+    "What is the current process and baseline?",
+    "Which measure shows the bottleneck?",
+    "What change is being considered?",
+    "What might get worse if the change is made?"
+  ]
+}

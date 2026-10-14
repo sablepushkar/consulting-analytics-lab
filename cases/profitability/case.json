@@ -1,0 +1,9 @@
+{
+  "title": "Small product profitability example",
+  "data_type": "synthetic_example",
+  "currency": "INR",
+  "selling_price_per_unit": 120,
+  "variable_cost_per_unit": 75,
+  "fixed_costs": 1000,
+  "note": "Fictional values used to check the basic calculations. Not a real company case."
+}
