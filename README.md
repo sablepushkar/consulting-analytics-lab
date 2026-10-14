@@ -42,3 +42,7 @@ The market-entry and operational-efficiency cases are outlines, not completed in
 ## Scope and limits
 
 This is a student learning project, not a consulting firm's toolkit. The CSV scanner has configurable safety limits (1 GB input and 5 million rows by default); I have not benchmarked it on production-scale data. The public indicator measures national current health expenditure as a share of GDP; it does not measure pharmaceutical sales, medicine demand or company profitability. Results still need source checks and interpretation of assumptions.
+
+---
+
+Copyright © 2026 Pushkar Sudam Sable. See [COPYRIGHT.md](COPYRIGHT.md) for ownership and license notes.
