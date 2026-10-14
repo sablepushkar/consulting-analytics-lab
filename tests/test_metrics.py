@@ -17,6 +17,11 @@ class MetricsTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             contribution_per_unit(100, -2)
 
+    def test_non_finite_and_boolean_values_are_rejected(self):
+        for value in (float("nan"), float("inf"), True, "120"):
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                contribution_per_unit(value, 75)
+
     def test_margin_percent(self):
         self.assertAlmostEqual(margin_percent(200, 150), 25.0)
 
